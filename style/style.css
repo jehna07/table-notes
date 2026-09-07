@@ -11,9 +11,9 @@ body {
 /* Header */
 
 .site-header {
-    max-width: 1100px;
+    max-width: 1020px;
     margin: 0 auto;
-    padding: 42px 20px 32px;
+    padding: 40px 20px 26px;
     overflow: hidden;
 }
 
@@ -44,7 +44,7 @@ body {
 .site-header a {
     color: #111111;
     font-family: "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -64,7 +64,7 @@ body {
 
 #site-name a {
     font-family: "Times New Roman", Times, serif;
-    font-size: 56px;
+    font-size: 52px;
     font-weight: bold;
     letter-spacing: -1px;
 }
@@ -90,9 +90,10 @@ body {
 /* Main page layout */
 
 .content-wrapper {
-    max-width: 1100px;
+    max-width: 1020px;
+    min-height: 560px;
     margin: 0 auto;
-    padding: 42px 20px 10px;
+    padding: 30px 20px 70px;
 }
 
 .page-layout {
@@ -101,21 +102,21 @@ body {
 
 .main-content {
     float: left;
-    width: 72%;
+    width: 68%;
 }
 
 .sidebar {
     float: right;
-    width: 24%;
+    width: 28%;
 }
 
 
 /* Page headings */
 
 .page-section h1 {
-    margin: 0 0 28px;
+    margin: 0 0 24px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 42px;
+    font-size: 38px;
     font-weight: bold;
     text-transform: lowercase;
 }
@@ -134,7 +135,7 @@ body {
     float: left;
     width: 31%;
     margin-right: 3.5%;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -154,7 +155,7 @@ body {
 .feature-card h2 {
     margin: 10px 0 0;
     font-family: "Times New Roman", Times, serif;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.2;
 }
 
@@ -178,14 +179,14 @@ body {
 /* Sidebar */
 
 .sidebar-feature {
-    padding: 0 0 0 18px;
+    padding: 0 0 0 12px;
     background-color: white;
 }
 
 .sidebar-feature h2 {
     margin: 0 0 15px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 23px;
+    font-size: 21px;
 }
 
 .sidebar-feature img {
@@ -197,7 +198,7 @@ body {
 .sidebar-feature h3 {
     margin: 14px 0 15px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.3;
 }
 
@@ -238,13 +239,13 @@ body {
 .about-copy h2 {
     margin: 0 0 16px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 27px;
+    font-size: 25px;
 }
 
 .about-copy p {
     margin: 0 0 17px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.6;
 }
 
@@ -252,14 +253,14 @@ body {
 /* Footer */
 
 .site-footer {
-    margin-top: 55px;
-    background-color: white;
+    margin-top: 0;
+    background-color: #f8f8f8;
 }
 
 .footer-content {
-    max-width: 1100px;
+    max-width: 1020px;
     margin: 0 auto;
-    padding: 32px 20px 36px;
+    padding: 30px 20px 28px;
     overflow: hidden;
 }
 
@@ -298,7 +299,7 @@ body {
 .footer-bottom p {
     margin: 4px 0;
     font-family: "Times New Roman", Times, serif;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -314,7 +315,7 @@ body {
     margin: 4px 0;
     color: #111111;
     font-family: "Times New Roman", Times, serif;
-    font-size: 15px;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -325,7 +326,7 @@ body {
 
 .footer-bottom {
     clear: both;
-    padding-top: 24px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -345,6 +346,10 @@ body {
 /* Medium screens */
 
 @media (max-width: 800px) {
+
+    .content-wrapper {
+        min-height: 0;
+    }
 
     #site-name a {
         font-size: 44px;
@@ -458,3 +463,4 @@ body {
         margin: 4px 0;
     }
 }
+
